@@ -4,7 +4,7 @@ import random
 
 
 suits = ('♠', '♥', '♦', '♣')
-ranks = ('A', '2', '3', '4', '5', '6', '7', '8', '9', 'J', 'Q', 'K', '10')
+ranks = ('A', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K')
 deck = tuple(''.join((s, r)) for r in ranks for s in suits)
 
 
